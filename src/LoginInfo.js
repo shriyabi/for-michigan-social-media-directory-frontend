@@ -37,13 +37,13 @@ const LogInProfile = () => {
                     <div className="flex-col flex text-left text-stone-400">
                         <div className="flex flex-row items-center">
                             <div className="text-sm text-stone-400 dark:text-beige-dark md:text-lg font-semibold italic pt-2 pr-2"> Username: </div>
-                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300"  >
+                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300 dark:bg-yellow-600"  >
                                 {parsedData[0].username}
                             </h1>
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="text-sm text-stone-400 dark:text-beige-dark md:text-lg font-semibold italic pt-2 pr-2"> Password: </div>
-                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300"  >
+                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300 dark:bg-yellow-600"  >
                                 {parsedData[0].password}
                             </h1>
                         </div>
