@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/for-michigan-social-media-directory-frontend/static/css/main.1a554ffc.css",
-    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.db06a797.js",
+    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.7f54bb57.js",
     "static/js/453.8ab44547.chunk.js": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js",
     "static/media/4MichBlack.png": "/for-michigan-social-media-directory-frontend/static/media/4MichBlack.b35dd86d350dd00a475a.png",
     "index.html": "/for-michigan-social-media-directory-frontend/index.html",
     "main.1a554ffc.css.map": "/for-michigan-social-media-directory-frontend/static/css/main.1a554ffc.css.map",
-    "main.db06a797.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.db06a797.js.map",
+    "main.7f54bb57.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.7f54bb57.js.map",
     "453.8ab44547.chunk.js.map": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a554ffc.css",
-    "static/js/main.db06a797.js"
+    "static/js/main.7f54bb57.js"
   ]
 }
