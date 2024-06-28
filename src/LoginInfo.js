@@ -21,7 +21,7 @@ const LogInProfile = () => {
     return (
         <>
         <div className='bg-beige-light dark:bg-maple-dark h-screen overflow-hidden overflow-x-hidden w-screen flex flex-col justify-center'>
-            <h1 className="text-3xl md:text-5xl font-extrabold text-maple-dark dark:text-amber-100 text-left ml-5 md:ml-10 mt-5 leading-3 lg:ml-12">
+            <h1 className="text-3xl md:text-5xl font-extrabold text-maple-dark dark:text-amber-100 text-left ml-5 md:ml-10 mt-5 leading-none lg:ml-12">
                 {parsedData[0].college}
             </h1>
             <div className="flex flex-row items-center justify-start ml-5 md:ml-10 mt-0 lg:ml-12 md:mb-10 lg:mb-0">
