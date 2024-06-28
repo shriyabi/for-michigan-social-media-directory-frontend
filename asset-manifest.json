@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/for-michigan-social-media-directory-frontend/static/css/main.8f3cf423.css",
-    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.aeb8462f.js",
+    "main.css": "/for-michigan-social-media-directory-frontend/static/css/main.45f6951a.css",
+    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.a3509a01.js",
     "static/js/453.8ab44547.chunk.js": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js",
     "static/media/4MichBlack.png": "/for-michigan-social-media-directory-frontend/static/media/4MichBlack.b35dd86d350dd00a475a.png",
     "index.html": "/for-michigan-social-media-directory-frontend/index.html",
-    "main.8f3cf423.css.map": "/for-michigan-social-media-directory-frontend/static/css/main.8f3cf423.css.map",
-    "main.aeb8462f.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.aeb8462f.js.map",
+    "main.45f6951a.css.map": "/for-michigan-social-media-directory-frontend/static/css/main.45f6951a.css.map",
+    "main.a3509a01.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.a3509a01.js.map",
     "453.8ab44547.chunk.js.map": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f3cf423.css",
-    "static/js/main.aeb8462f.js"
+    "static/css/main.45f6951a.css",
+    "static/js/main.a3509a01.js"
   ]
 }
