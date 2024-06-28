@@ -1,16 +1,15 @@
 import React from 'react';
-import { createRoot } from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
 import Dashboard from './Dashboard';
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import './index.css'; 
 import LogInProfile from './LoginInfo';
 
-const root = createRoot(document.getElementById('root'));
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
+  <Router basename="/for-michigan-social-media-directory-frontend">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/login-information" element={<LogInProfile />} />
