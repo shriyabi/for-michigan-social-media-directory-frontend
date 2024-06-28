@@ -20,7 +20,7 @@
 
 #custom exlusion
 sql.js
-Signin.js
+SignIn.js
 
 npm-debug.log*
 yarn-debug.log*
