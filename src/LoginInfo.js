@@ -19,6 +19,7 @@ const LogInProfile = () => {
     console.log(data);
     const parsedData = JSON.parse(data);
     return (
+        <>
         <div className='bg-beige-light dark:bg-maple-dark h-screen overflow-hidden overflow-x-hidden w-screen flex flex-col justify-center'>
             <h1 className="text-3xl md:text-5xl font-extrabold text-maple-dark dark:text-amber-100 text-left ml-5 md:ml-10 mt-5 lg:ml-12">
                 {parsedData[0].college}
@@ -32,18 +33,18 @@ const LogInProfile = () => {
             </div>
 
             <div className="ml-5 md:ml-10 mr-5 mt-7 md:mt-20 flex flex-col md:flex-row w-full lg:ml-12">
-                <div className="w-screen md:w-1/4 md:mr-10">
+                <div className="w-screen md:w-1/2 lg:w-1/4 md:mr-10">
                     <h1 className="text-lg md:text-2xl overline font-bold text-maple dark:text-beige text-left"> Log-In Information </h1>
                     <div className="flex-col flex text-left text-stone-400">
                         <div className="flex flex-row items-center">
                             <div className="text-sm text-stone-400 dark:text-beige-dark md:text-lg font-semibold italic pt-2 pr-2"> Username: </div>
-                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300 dark:bg-yellow-600"  >
+                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300 dark:bg-yellow-800"  >
                                 {parsedData[0].username}
                             </h1>
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="text-sm text-stone-400 dark:text-beige-dark md:text-lg font-semibold italic pt-2 pr-2"> Password: </div>
-                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300 dark:bg-yellow-600"  >
+                            <h1 className="text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-1 bg-yellow-300 dark:bg-yellow-800"  >
                                 {parsedData[0].password}
                             </h1>
                         </div>
@@ -55,7 +56,7 @@ const LogInProfile = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-screen mt-12 md:w-1/4 md:pl-5 md:mt-0 md:mr-40">
+                <div className="w-screen mt-12 md:w-1/2 lg:w-1/4 md:pl-5 md:mt-0 md:mr-40">
                     <h1 className="text-lg md:text-2xl overline font-bold text-maple dark:text-beige text-left"> Profile Information </h1>
                     <div className="flex-row text-left text-slate-800">
                         <div className="flex-row flex items-center">
@@ -64,9 +65,9 @@ const LogInProfile = () => {
                                 {parsedData[0].full_name}
                             </h1>
                         </div>
-                        <div className="flex-row flex items-center">
+                        <div className="flex-col md:flex-row flex items-start md:items-center">
                             <div className="text-sm text-stone-400 md:text-lg dark:text-beige-dark  font-semibold"> Profile:  </div>
-                            <h1 className={`text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left px-2 ${parsedData[0].profile === 'Not Available' ? 'text-red-700 dark:text-red-400' : 'text-maple dark:text-beige'}`} >
+                            <h1 className={`text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left md:px-2 ${parsedData[0].profile === 'Not Available' ? 'text-red-700 dark:text-red-400' : 'text-maple dark:text-beige'}`} >
                                 <a href={parsedData[0].profile} target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">
                                     {parsedData[0].profile}
                                 </a>
@@ -74,7 +75,7 @@ const LogInProfile = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-screen mt-12 md:w-1/4 md:pl-5 md:mt-0">
+                <div className="w-screen mt-12 md:w-1/2 lg:w-1/4 md:pl-5 md:mt-0">
                     <h1 className="text-lg md:text-2xl overline font-bold text-maple dark:text-beige text-left"> Contact Information </h1>
                     <div className="flex-row text-left text-slate-800">
                         <div className="flex-row flex items-center">
@@ -99,6 +100,7 @@ const LogInProfile = () => {
                     Return Back to Search </button>
             </div>
         </div>
+        </>
     )
 }
 export default LogInProfile; 
