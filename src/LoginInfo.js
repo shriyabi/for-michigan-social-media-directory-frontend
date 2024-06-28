@@ -67,7 +67,7 @@ const LogInProfile = () => {
                         </div>
                         <div className="flex-col md:flex-row flex items-start md:items-center">
                             <div className="text-sm text-stone-400 md:text-lg dark:text-beige-dark  font-semibold"> Profile:  </div>
-                            <h1 className={`text-base md:text-xl text-maple-dark dark:text-amber-100 font-bold text-left md:px-2 ${parsedData[0].profile === 'Not Available' ? 'text-red-700 dark:text-red-400' : 'text-maple dark:text-beige'}`} >
+                            <h1 className={`text-sm md:text-lg text-maple-dark dark:text-amber-100 font-bold text-left md:px-2 ${parsedData[0].profile === 'Not Available' ? 'text-red-700 dark:text-red-400' : 'text-maple dark:text-beige'}`} >
                                 <a href={parsedData[0].profile} target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">
                                     {parsedData[0].profile}
                                 </a>
