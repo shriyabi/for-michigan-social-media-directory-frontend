@@ -1,13 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
 import Dashboard from './Dashboard';
 import reportWebVitals from './reportWebVitals';
-import './index.css'; 
+import './index.css';
 import LogInProfile from './LoginInfo';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root'));
+
 root.render(
   <Router>
     <Routes>
