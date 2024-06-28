@@ -5,6 +5,21 @@ import './SignIn.css';
 
 function SignIn() {
     const navigate = useNavigate();
+
+    const authorizedEmails = [
+        'quinton@4mich.org',
+        'abbie@4mich.org',
+        'lelann@4mich.org',
+        'camille@4mich.org',
+        'ben@4mich.org',
+        'tyler@4mich.org',
+        'erica@4mich.org',
+        'rylan@4mich.org',
+        'aaeshah@4mich.org',
+        'ali@4mich.org',
+        'shriya@4mich.org'
+    ]; 
+
     function renderGoogleButton() {
         const width = window.innerWidth;
         let size = 'large';
@@ -22,7 +37,7 @@ function SignIn() {
 
     useEffect(() => {
         window.google.accounts.id.initialize({
-            client_id: 'OWN_CLIENT_ID',
+            client_id: MY_CLIENT_ID,
             callback: handleCredentialResponse
         });
         renderGoogleButton();
@@ -35,11 +50,20 @@ function SignIn() {
 
     //success so navigate to dashbaord
     const handleCredentialResponse = (response) => {
+        const userObject = JSON.parse(atob(response.credential.split('.')[1]));
+        const email = userObject.email;
         console.log("Encoded JWT ID token: " + response.credential);
-        navigate('/dashboard')
+        if (authorizedEmails.includes(email)) {
+            console.log('Authorized user: ' + email);
+            navigate('/dashboard');
+        } else {
+            console.log('Unauthorized user: ' + email);
+            alert('Unauthorized user.');
+        }
     } 
     
     return (
+        <>
         <div className='bg-beige-light dark:bg-maple-dark h-screen w-screen flex items-center justify-center'>
             <div className='bg-beige-dark dark:bg-maple w-3/4 h-1/2 md:w-3/5 md:h-2/5 lg:h-1/2 lg:w-2/5 flex items-center rounded justify-center shadow-box dark:shadow-box-light'>
                 <div className='bg-beige dark:bg-maple-light flex flex-col rounded justify-center items-center w-3/5 h-3/4 py-12 md:w-3/4 h-3/4 lg:w-3/4 h-3/4'>
@@ -57,6 +81,7 @@ function SignIn() {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 
