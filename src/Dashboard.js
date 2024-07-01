@@ -51,8 +51,12 @@ function Dashboard() {
       'Michigan State University',
       'Oakland University',
       'Saginaw Valley State University',
-      'University of Michigan',
-      'Wayne State University'];
+      'University of Michigan - Ann Arbor',
+      'Wayne State University',
+      'University of Michigan - Flint',
+      'Mott Community College',
+      'Kettering College'
+    ];
 
   const handleClickOutside = (event) => {
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
