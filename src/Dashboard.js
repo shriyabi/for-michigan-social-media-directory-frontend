@@ -105,8 +105,11 @@ function Dashboard() {
                 <option value="Michigan State University">Michigan State University</option>
                 <option value="Oakland University">Oakland University</option>
                 <option value="Saginaw Valley State University">Saginaw Valley State University</option>
-                <option value="University of Michigan">University of Michigan</option>
+                <option value="University of Michigan">University of Michigan - Ann Arbor</option>
                 <option value="Wayne State University">Wayne State University</option>
+                <option value="Wayne State University">University of Michigan - Flint</option>
+                <option value="Wayne State University">Mott Community College</option>
+                <option value="Wayne State University">Kettering College</option>
               </select>
               <button
                 type="submit"
