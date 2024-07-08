@@ -71,7 +71,7 @@ function Dashboard() {
   }, []);
 
   return (
-    <div className='bg-beige-light dark:bg-maple-dark min-h-screen w-screen overflow-y-scroll flex flex-col items-center lg:justify-center'>
+    <div className='bg-beige-light dark:bg-maple-dark min-h-screen w-screen overflow-y-scroll flex flex-col items-center md:justify-center'>
       <div className="flex flex-col justify-center items-center">
         <img
           src={logo}
@@ -98,18 +98,18 @@ function Dashboard() {
                 <option value="Jackson Community College">Jackson Community College</option>
                 <option value="Kalamazoo College">Kalamazoo College</option>
                 <option value="Kalamazoo Valley Community College">Kalamazoo Valley Community College</option>
+                <option value="Kettering College">Kettering College</option>
                 <option value="Lansing Community College">Lansing Community College</option>
                 <option value="Lawerence Technological University">Lawerence Technological University</option>
                 <option value="Macomb Community College">Macomb Community College</option>
                 <option value="Mid Michigan College">Mid Michigan College</option>
                 <option value="Michigan State University">Michigan State University</option>
+                <option value="Mott Community College">Mott Community College</option>
                 <option value="Oakland University">Oakland University</option>
                 <option value="Saginaw Valley State University">Saginaw Valley State University</option>
-                <option value="University of Michigan">University of Michigan - Ann Arbor</option>
+                <option value="University of Michigan - Ann Arbor">University of Michigan - Ann Arbor</option>
+                <option value="University of Michigan - Flint">University of Michigan - Flint</option>
                 <option value="Wayne State University">Wayne State University</option>
-                <option value="Wayne State University">University of Michigan - Flint</option>
-                <option value="Wayne State University">Mott Community College</option>
-                <option value="Wayne State University">Kettering College</option>
               </select>
               <button
                 type="submit"
