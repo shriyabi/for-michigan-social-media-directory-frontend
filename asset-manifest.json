@@ -1,16 +1,31 @@
 {
   "files": {
-    "main.css": "/for-michigan-social-media-directory-frontend/static/css/main.249ae035.css",
-    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.b6c19663.js",
+    "main.css": "/for-michigan-social-media-directory-frontend/static/css/main.388e6cc6.css",
+    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.93c757fd.js",
     "static/js/453.8ab44547.chunk.js": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js",
     "static/media/4MichBlack.png": "/for-michigan-social-media-directory-frontend/static/media/4MichBlack.b35dd86d350dd00a475a.png",
+    "static/media/Delta.png": "/for-michigan-social-media-directory-frontend/static/media/Delta.aedae769917153908c39.png",
+    "static/media/MCC.png": "/for-michigan-social-media-directory-frontend/static/media/MCC.c8d165f7a99a5221e37d.png",
+    "static/media/MSU.png": "/for-michigan-social-media-directory-frontend/static/media/MSU.30144bccf500309368f3.png",
+    "static/media/JC.png": "/for-michigan-social-media-directory-frontend/static/media/JC.bdf337d87ea8e383186a.png",
+    "static/media/OU.png": "/for-michigan-social-media-directory-frontend/static/media/OU.8de052dacceb71524f6d.png",
+    "static/media/UMICH.png": "/for-michigan-social-media-directory-frontend/static/media/UMICH.b5ee394d5ce29339bcbe.png",
+    "static/media/LTU.png": "/for-michigan-social-media-directory-frontend/static/media/LTU.d8adfc10499d1fd518a6.png",
+    "static/media/LCC.png": "/for-michigan-social-media-directory-frontend/static/media/LCC.2f435b61a9c49c2a61b1.png",
+    "static/media/SVSU.png": "/for-michigan-social-media-directory-frontend/static/media/SVSU.321b173daf6d15d4d614.png",
+    "static/media/WSU.png": "/for-michigan-social-media-directory-frontend/static/media/WSU.32c9bd2ad8c1e819397d.png",
+    "static/media/KVCC.png": "/for-michigan-social-media-directory-frontend/static/media/KVCC.5adfdb64d9d370c9fa93.png",
+    "static/media/CMU.png": "/for-michigan-social-media-directory-frontend/static/media/CMU.32bed010a98c3b7dbad1.png",
+    "static/media/WMU.png": "/for-michigan-social-media-directory-frontend/static/media/WMU.a5d1ef1a1dc7b8748e2d.png",
+    "static/media/Mid-Mich.png": "/for-michigan-social-media-directory-frontend/static/media/Mid-Mich.dfd4dbc41ca323410838.png",
+    "static/media/KC.png": "/for-michigan-social-media-directory-frontend/static/media/KC.86ae54f19981029a9b3b.png",
     "index.html": "/for-michigan-social-media-directory-frontend/index.html",
-    "main.249ae035.css.map": "/for-michigan-social-media-directory-frontend/static/css/main.249ae035.css.map",
-    "main.b6c19663.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.b6c19663.js.map",
+    "main.388e6cc6.css.map": "/for-michigan-social-media-directory-frontend/static/css/main.388e6cc6.css.map",
+    "main.93c757fd.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.93c757fd.js.map",
     "453.8ab44547.chunk.js.map": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.249ae035.css",
-    "static/js/main.b6c19663.js"
+    "static/css/main.388e6cc6.css",
+    "static/js/main.93c757fd.js"
   ]
 }
