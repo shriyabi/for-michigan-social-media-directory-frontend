@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/for-michigan-social-media-directory-frontend/static/css/main.6aea3944.css",
-    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.5d247b41.js",
+    "main.js": "/for-michigan-social-media-directory-frontend/static/js/main.28edfc9c.js",
     "static/js/453.8ab44547.chunk.js": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js",
     "static/media/4MichBlack.png": "/for-michigan-social-media-directory-frontend/static/media/4MichBlack.b35dd86d350dd00a475a.png",
     "static/media/Delta.png": "/for-michigan-social-media-directory-frontend/static/media/Delta.aedae769917153908c39.png",
@@ -10,6 +10,7 @@
     "static/media/MCC.png": "/for-michigan-social-media-directory-frontend/static/media/MCC.c8d165f7a99a5221e37d.png",
     "static/media/MSU.png": "/for-michigan-social-media-directory-frontend/static/media/MSU.30144bccf500309368f3.png",
     "static/media/Ket.png": "/for-michigan-social-media-directory-frontend/static/media/Ket.353d5b892e80e501349b.png",
+    "static/media/EMU.png": "/for-michigan-social-media-directory-frontend/static/media/EMU.1fb0bb467431ad2a80f2.png",
     "static/media/JC.png": "/for-michigan-social-media-directory-frontend/static/media/JC.bdf337d87ea8e383186a.png",
     "static/media/OU.png": "/for-michigan-social-media-directory-frontend/static/media/OU.8de052dacceb71524f6d.png",
     "static/media/UMICH.png": "/for-michigan-social-media-directory-frontend/static/media/UMICH.b5ee394d5ce29339bcbe.png",
@@ -25,11 +26,11 @@
     "static/media/KC.png": "/for-michigan-social-media-directory-frontend/static/media/KC.86ae54f19981029a9b3b.png",
     "index.html": "/for-michigan-social-media-directory-frontend/index.html",
     "main.6aea3944.css.map": "/for-michigan-social-media-directory-frontend/static/css/main.6aea3944.css.map",
-    "main.5d247b41.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.5d247b41.js.map",
+    "main.28edfc9c.js.map": "/for-michigan-social-media-directory-frontend/static/js/main.28edfc9c.js.map",
     "453.8ab44547.chunk.js.map": "/for-michigan-social-media-directory-frontend/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6aea3944.css",
-    "static/js/main.5d247b41.js"
+    "static/js/main.28edfc9c.js"
   ]
 }
