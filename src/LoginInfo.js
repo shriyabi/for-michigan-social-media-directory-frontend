@@ -102,7 +102,7 @@ const LogInProfile = () => {
                             parsedData[0].img === 'wsu' ? wsu :'no'}
                             `}
                                 className="w-[5em] h-[5em] md:w-[14em] md:h-[10em] rounded-3xl" alt="Click to Download" /></a>
-                        <p className="text-xs text-center italic">Click to Download Logo</p>
+                        <p className="text-xs text-center italic dark:text-gray-300">Click to Download Logo</p>
                     </div>
                 </div>
 
