@@ -16,7 +16,10 @@ import svsu from './PFP/SVSU.png';
 import umich from './PFP/UMICH.png'; 
 import wmu from './PFP/WMU.png'; 
 import wsu from './PFP/WSU.png'; 
-
+import mocc from './PFP/MOCC.png'; 
+import ket from './PFP/Ket.png'; 
+import udm from './PFP/UDM.png'; 
+import gvsu from './PFP/GVSU.png'; 
 
 //function StaffProfile({data}){
 const LogInProfile = () => {
@@ -65,7 +68,11 @@ const LogInProfile = () => {
                             parsedData[0].img === 'svsu' ? svsu :
                             parsedData[0].img === 'umich' ? umich :
                             parsedData[0].img === 'wmu' ? wmu :
-                            parsedData[0].img === 'wsu' ? wsu :'no'}
+                            parsedData[0].img === 'wsu' ? wsu :
+                            parsedData[0].img === 'wsu' ? mocc :
+                            parsedData[0].img === 'wsu' ? ket : 
+                            parsedData[0].img === 'wsu' ? udm :
+                            parsedData[0].img === 'wsu' ? gvsu : 'no'}
                             `}
                             download=
                             {` ${parsedData[0].img === 'msu' ? msu.png : 
@@ -82,7 +89,11 @@ const LogInProfile = () => {
                             parsedData[0].img === 'svsu' ? svsu.png :
                             parsedData[0].img === 'umich' ? umich.png :
                             parsedData[0].img === 'wmu' ? wmu.png :
-                            parsedData[0].img === 'wsu' ? wsu.png :'no'}
+                            parsedData[0].img === 'wsu' ? wsu.png :
+                            parsedData[0].img === 'wsu' ? mocc :
+                            parsedData[0].img === 'wsu' ? ket : 
+                            parsedData[0].img === 'wsu' ? udm :
+                            parsedData[0].img === 'wsu' ? gvsu : 'no'}
                             `}>
                             <img src=
                             {` ${parsedData[0].img === 'msu' ? msu : 
@@ -99,7 +110,11 @@ const LogInProfile = () => {
                             parsedData[0].img === 'svsu' ? svsu :
                             parsedData[0].img === 'umich' ? umich :
                             parsedData[0].img === 'wmu' ? wmu :
-                            parsedData[0].img === 'wsu' ? wsu :'no'}
+                            parsedData[0].img === 'wsu' ? wsu :
+                            parsedData[0].img === 'wsu' ? mocc :
+                            parsedData[0].img === 'wsu' ? ket : 
+                            parsedData[0].img === 'wsu' ? udm :
+                            parsedData[0].img === 'wsu' ? gvsu : 'no'}
                             `}
                                 className="w-[5em] h-[5em] md:w-[14em] md:h-[10em] rounded-3xl" alt="Click to Download" /></a>
                         <p className="text-xs text-center italic dark:text-gray-300">Click to Download Logo</p>
