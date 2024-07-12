@@ -55,7 +55,9 @@ function Dashboard() {
       'Wayne State University',
       'University of Michigan - Flint',
       'Mott Community College',
-      'Kettering College'
+      'Kettering College',
+      'Grand Valley State University',
+      'University of Detriot Mercy'
     ];
 
   const handleClickOutside = (event) => {
@@ -95,6 +97,7 @@ function Dashboard() {
                 Select College</option>
                 <option value="Central Michigan University">Central Michigan University</option>
                 <option value="Delta College">Delta College</option>
+                <option value="Grand Valley State University">Grand Valley State University</option>
                 <option value="Jackson Community College">Jackson Community College</option>
                 <option value="Kalamazoo College">Kalamazoo College</option>
                 <option value="Kalamazoo Valley Community College">Kalamazoo Valley Community College</option>
@@ -107,6 +110,7 @@ function Dashboard() {
                 <option value="Mott Community College">Mott Community College</option>
                 <option value="Oakland University">Oakland University</option>
                 <option value="Saginaw Valley State University">Saginaw Valley State University</option>
+                <option value="University of Detriot Mercy">University of Detriot Mercy</option>
                 <option value="University of Michigan - Ann Arbor">University of Michigan - Ann Arbor</option>
                 <option value="University of Michigan - Flint">University of Michigan - Flint</option>
                 <option value="Wayne State University">Wayne State University</option>
