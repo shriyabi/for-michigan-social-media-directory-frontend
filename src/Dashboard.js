@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import logo from './4MichBlack.png';
+import logo2 from './4MichWhite.png';
 import './SignIn.css';
 import { logInInfo } from './sql';
 
@@ -73,11 +74,26 @@ function Dashboard() {
     };
   }, []);
 
+  //logo
+  const [appMode, setAppMode] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  useEffect(()=> {
+    const mode = (e) => {
+      setAppMode(e.matches ? 'dark' : 'light'); 
+    }; 
+    const dark = window.matchMedia('(prefers-color-scheme:dark'); 
+    dark.addEventListener('change', mode); 
+    return () =>{
+      dark.removeEventListener('change',mode); //clean up
+    }
+  },[]); 
+
+  const logoChange = appMode == 'dark' ? logo2 : logo; 
+
   return (
     <div className='bg-beige-light dark:bg-maple-dark min-h-screen w-screen overflow-y-scroll flex flex-col items-center md:justify-center'>
       <div className="flex flex-col justify-center items-center">
         <img
-          src={logo}
+          src={logoChange}
           className='mt-10 w-1/3 md:w-1/4 lg:w-1/5'
           alt="Logo"
         />
