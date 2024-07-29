@@ -48,6 +48,7 @@ function Dashboard() {
       'Lansing Community College',
       'Lawerence Technological University',
       'Macomb Community College',
+      'Madonna University',
       'Mid Michigan College',
       'Michigan State University',
       'Oakland University',
@@ -59,7 +60,8 @@ function Dashboard() {
       'Kettering College',
       'Grand Valley State University',
       'University of Detriot Mercy',
-      'Eastern Michigan University'
+      'Eastern Michigan University',
+      'Schoolcraft College'
     ];
 
   const handleClickOutside = (event) => {
@@ -123,11 +125,13 @@ function Dashboard() {
                 <option value="Lansing Community College">Lansing Community College</option>
                 <option value="Lawerence Technological University">Lawerence Technological University</option>
                 <option value="Macomb Community College">Macomb Community College</option>
+                <option value="Madonna University">Madonna University</option>
                 <option value="Mid Michigan College">Mid Michigan College</option>
                 <option value="Michigan State University">Michigan State University</option>
                 <option value="Mott Community College">Mott Community College</option>
                 <option value="Oakland University">Oakland University</option>
                 <option value="Saginaw Valley State University">Saginaw Valley State University</option>
+                <option value="Schoolcraft College">Schoolcraft College</option>
                 <option value="University of Detriot Mercy">University of Detriot Mercy</option>
                 <option value="University of Michigan - Ann Arbor">University of Michigan - Ann Arbor</option>
                 <option value="University of Michigan - Flint">University of Michigan - Flint</option>
