@@ -23,6 +23,9 @@ import gvsu from './PFP/GVSU.png';
 import emu from './PFP/EMU.png'; 
 import mad from './PFP/MAD.png'; 
 import sch from './PFP/SchoolCraft.png'; 
+import fsu from './PFP/FSU.png'; 
+import occ from './PFP/OCC.png'; 
+import alb from './PFP/Alb.png'; 
 
 //function StaffProfile({data}){
 const LogInProfile = () => {
@@ -78,7 +81,10 @@ const LogInProfile = () => {
                             parsedData[0].img === 'gvsu' ? gvsu :
                             parsedData[0].img === 'emu' ? emu :
                             parsedData[0].img === 'mad' ? mad :
-                            parsedData[0].img === 'sch' ? sch : 'no'}
+                            parsedData[0].img === 'sch' ? sch : 
+                            parsedData[0].img === 'alb' ? alb :
+                            parsedData[0].img === 'fsu' ? fsu :
+                            parsedData[0].img === 'occ' ? occ : 'no'}
                             `}
                             download=
                             {` ${parsedData[0].img === 'msu' ? msu.png : 
@@ -102,7 +108,10 @@ const LogInProfile = () => {
                             parsedData[0].img === 'gvsu' ? gvsu :
                             parsedData[0].img === 'emu' ? emu : 
                             parsedData[0].img === 'mad' ? mad :
-                            parsedData[0].img === 'sch' ? sch : 'no'}
+                            parsedData[0].img === 'sch' ? sch : 
+                            parsedData[0].img === 'alb' ? alb :
+                            parsedData[0].img === 'fsu' ? fsu :
+                            parsedData[0].img === 'occ' ? occ : 'no'}
                             `}>
                             <img src=
                             {` ${parsedData[0].img === 'msu' ? msu : 
@@ -126,7 +135,10 @@ const LogInProfile = () => {
                             parsedData[0].img === 'gvsu' ? gvsu : 
                             parsedData[0].img === 'emu' ? emu :
                             parsedData[0].img === 'mad' ? mad :
-                            parsedData[0].img === 'sch' ? sch : 'no'}
+                            parsedData[0].img === 'sch' ? sch : 
+                            parsedData[0].img === 'alb' ? alb :
+                            parsedData[0].img === 'fsu' ? fsu :
+                            parsedData[0].img === 'occ' ? occ : 'no'}
                             `}
                                 className="w-[5em] h-[5em] md:w-[14em] md:h-[10em] rounded-3xl" alt="Click to Download" /></a>
                         <p className="text-xs text-center italic dark:text-gray-300">Click to Download Logo</p>

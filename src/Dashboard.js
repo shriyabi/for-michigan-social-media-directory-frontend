@@ -57,11 +57,14 @@ function Dashboard() {
       'Wayne State University',
       'University of Michigan - Flint',
       'Mott Community College',
-      'Kettering College',
+      'Kettering University',
       'Grand Valley State University',
       'University of Detriot Mercy',
       'Eastern Michigan University',
-      'Schoolcraft College'
+      'Schoolcraft College',
+      'Western Michigan University',
+      'Ferris State University',
+      'Albion College'
     ];
 
   const handleClickOutside = (event) => {
@@ -114,14 +117,16 @@ function Dashboard() {
                 onChange={(e) => setGivenCollege(e.target.value)}>
                 <option value="Select Select College" className='px-1 mb-1 italic text-sm md:text-lg mx-2 mb-2 w-full border-2 border-slate-700 rounded border-lg focus:border-blue-300 invalid:border-red-300 dark:bg-gray-300'> 
                 Select College</option>
+                <option value="Albion College">Albion College</option>
                 <option value="Central Michigan University">Central Michigan University</option>
                 <option value="Delta College">Delta College</option>
                 <option value="Eastern Michigan University">Eastern Michigan University</option>
+                <option value="Ferris State University">Ferris State University</option>
                 <option value="Grand Valley State University">Grand Valley State University</option>
                 <option value="Jackson College">Jackson College</option>
                 <option value="Kalamazoo College">Kalamazoo College</option>
                 <option value="Kalamazoo Valley Community College">Kalamazoo Valley Community College</option>
-                <option value="Kettering College">Kettering College</option>
+                <option value="Kettering University">Kettering University</option>
                 <option value="Lansing Community College">Lansing Community College</option>
                 <option value="Lawerence Technological University">Lawerence Technological University</option>
                 <option value="Macomb Community College">Macomb Community College</option>
@@ -129,6 +134,7 @@ function Dashboard() {
                 <option value="Mid Michigan College">Mid Michigan College</option>
                 <option value="Michigan State University">Michigan State University</option>
                 <option value="Mott Community College">Mott Community College</option>
+                <option value="Oakland Community College">Oakland Community College</option>
                 <option value="Oakland University">Oakland University</option>
                 <option value="Saginaw Valley State University">Saginaw Valley State University</option>
                 <option value="Schoolcraft College">Schoolcraft College</option>
@@ -136,6 +142,7 @@ function Dashboard() {
                 <option value="University of Michigan - Ann Arbor">University of Michigan - Ann Arbor</option>
                 <option value="University of Michigan - Flint">University of Michigan - Flint</option>
                 <option value="Wayne State University">Wayne State University</option>
+                <option value="Western Michigan University">Western Michigan University</option>
               </select>
               <button
                 type="submit"
