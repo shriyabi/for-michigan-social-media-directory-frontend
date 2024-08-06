@@ -64,7 +64,8 @@ function Dashboard() {
       'Schoolcraft College',
       'Western Michigan University',
       'Ferris State University',
-      'Albion College'
+      'Albion College',
+      'Aquinas College'
     ];
 
   const handleClickOutside = (event) => {
@@ -118,6 +119,7 @@ function Dashboard() {
                 <option value="Select Select College" className='px-1 mb-1 italic text-sm md:text-lg mx-2 mb-2 w-full border-2 border-slate-700 rounded border-lg focus:border-blue-300 invalid:border-red-300 dark:bg-gray-300'> 
                 Select College</option>
                 <option value="Albion College">Albion College</option>
+                <option value="Aquinas College">Aquinas College</option>
                 <option value="Central Michigan University">Central Michigan University</option>
                 <option value="Delta College">Delta College</option>
                 <option value="Eastern Michigan University">Eastern Michigan University</option>
