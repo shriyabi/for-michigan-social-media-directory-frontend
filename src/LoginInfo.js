@@ -86,7 +86,9 @@ const LogInProfile = () => {
                             parsedData[0].img === 'alb' ? alb :
                             parsedData[0].img === 'fsu' ? fsu :
                             parsedData[0].img === 'occ' ? occ :
-                            parsedData[0].img === 'aq' ? aq : 'no'}
+                            parsedData[0].img === 'aq' ? aq : 
+                            parsedData[0].img === 'mtu' ? mtu : 
+                            parsedData[0].img === 'mccc' ? mccc :'no'}
                             `}
                             download=
                             {` ${parsedData[0].img === 'msu' ? msu.png : 
@@ -113,7 +115,9 @@ const LogInProfile = () => {
                             parsedData[0].img === 'sch' ? sch : 
                             parsedData[0].img === 'alb' ? alb :
                             parsedData[0].img === 'fsu' ? fsu :
-                            parsedData[0].img === 'aq' ? aq : 'no'}
+                            parsedData[0].img === 'aq' ? aq : 
+                            parsedData[0].img === 'mtu' ? mtu : 
+                            parsedData[0].img === 'mccc' ? mccc : 'no'}
                             `}>
                             <img src=
                             {` ${parsedData[0].img === 'msu' ? msu : 
@@ -140,7 +144,9 @@ const LogInProfile = () => {
                             parsedData[0].img === 'sch' ? sch : 
                             parsedData[0].img === 'alb' ? alb :
                             parsedData[0].img === 'fsu' ? fsu :
-                            parsedData[0].img === 'aq' ? aq : 'no'}
+                            parsedData[0].img === 'aq' ? aq : 
+                            parsedData[0].img === 'mtu' ? mtu : 
+                            parsedData[0].img === 'mccc' ? mccc : 'no'}
                             `}
                                 className="w-[5em] h-[5em] md:w-[14em] md:h-[10em] rounded-3xl" alt="Click to Download" /></a>
                         <p className="text-xs text-center italic dark:text-gray-300">Click to Download Logo</p>

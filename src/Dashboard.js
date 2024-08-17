@@ -65,7 +65,8 @@ function Dashboard() {
       'Western Michigan University',
       'Ferris State University',
       'Albion College',
-      'Aquinas College'
+      'Aquinas College',
+      'Monroe County Community College'
     ];
 
   const handleClickOutside = (event) => {
@@ -136,6 +137,7 @@ function Dashboard() {
                 <option value="Mid Michigan College">Mid Michigan College</option>
                 <option value="Michigan State University">Michigan State University</option>
                 <option value="Mott Community College">Mott Community College</option>
+                <option value="Monroe County Community College">Monroe County Community College</option>
                 <option value="Oakland Community College">Oakland Community College</option>
                 <option value="Oakland University">Oakland University</option>
                 <option value="Saginaw Valley State University">Saginaw Valley State University</option>
